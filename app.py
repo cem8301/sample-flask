@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 import requests
 import pandas as pd
 from pandas.tseries.offsets import *
-from pandas import pd
+import pandas as pd
 from flatten_dict import flatten
 from stravalib import Client
 import polyline
