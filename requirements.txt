@@ -22,7 +22,7 @@ geobuf==1.1.1
 idna==2.10
 Jinja2==2.11.2
 MarkupSafe==1.1.1
-numpy==1.19.1
+numpy==1.21.3
 pandas==1.1.1
 pathlib2==2.3.5
 pip==9.0.1
