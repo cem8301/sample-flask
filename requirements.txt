@@ -7,6 +7,9 @@ MarkupSafe==1.1.1
 Werkzeug==1.0.1
 requests==2.24.0
 stravalib==0.10.2
+setuptools==45.2.0
+numpy==1.21.3
+wheel==0.34.2
 pandas==1.1.1
 python-dotenv==0.14.0
 flatten-dict==0.3.0
