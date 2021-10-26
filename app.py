@@ -32,7 +32,7 @@ app.layout = html.Div([
 ])
 
 index_page = html.Div([
-    html.A("Get Some Data!!",
+    html.A("Get Some Data!",
            href="https://www.strava.com/oauth/authorize?client_id=32737&response_type=code&redirect_uri=https://www.giraffesinaboat.com/exchange_token&approval_prompt=force&scope=activity:read_all")
 ])
 
@@ -80,6 +80,10 @@ page_1_layout = html.Div([
                     'margin': 'auto',
                     'display': 'block'})
 ])
+
+@server.route('/hello')
+def hello():
+    return 'hello world!'
 
 @app.callback(
     Output('page-content', 'children'),
